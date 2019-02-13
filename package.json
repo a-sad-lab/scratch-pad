@@ -1,0 +1,33 @@
+{
+  "name": "scratch-pad",
+  "version": "1.0.0",
+  "description": "scratch pad",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rong8296-practice/scratch-pad.git"
+  },
+  "keywords": [
+    "Observable",
+    "Stream",
+    "Promise",
+    "Iterator",
+    "Proxy"
+  ],
+  "author": "sadhu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rong8296-practice/scratch-pad/issues"
+  },
+  "homepage": "https://github.com/rong8296-practice/scratch-pad#readme",
+  "dependencies": {
+    "@reactivex/rxjs": "^6.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^11.9.3",
+    "tslib": "^1.9.3",
+    "typescript": "^3.3.3"
+  }
+}
