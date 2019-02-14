@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "scratch pad",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "help": "tsc --help",
+    "dev": "tsc --project ./src/tsconfig.json",
+    "release": "tsc --project ./tsconfig.release.json"
   },
   "repository": {
     "type": "git",
@@ -23,7 +26,9 @@
   },
   "homepage": "https://github.com/rong8296-practice/scratch-pad#readme",
   "dependencies": {
-    "@reactivex/rxjs": "^6.4.0"
+    "@reactivex/rxjs": "^6.4.0",
+    "rxjs": "^6.4.0",
+    "rxjs-compat": "^6.4.0"
   },
   "devDependencies": {
     "@types/node": "^11.9.3",
