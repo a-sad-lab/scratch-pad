@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "scratch pad",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "help": "tsc --help",
-    "dev": "tsc --project ./src/tsconfig.json",
-    "release": "tsc --project ./tsconfig.release.json"
+    "dev": "tsc --project src",
+    "release": "tsc --project tsconfig.release.json",
+    "test": "tsc --build test --verbose && ava dist/testMod/t.js"
   },
   "repository": {
     "type": "git",
@@ -31,7 +31,10 @@
     "rxjs-compat": "^6.4.0"
   },
   "devDependencies": {
+    "@types/lodash": "^4.14.121",
     "@types/node": "^11.9.3",
+    "ava": "^1.2.1",
+    "lodash": "^4.17.11",
     "tslib": "^1.9.3",
     "typescript": "^3.3.3"
   }

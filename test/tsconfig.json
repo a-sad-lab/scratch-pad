@@ -1,0 +1,21 @@
+{
+  "extends": "../tsconfig.base",
+  "compilerOptions": {
+    "types": [
+      "node",
+      "lodash"
+    ],
+    "rootDirs": [
+      "../src",
+      "."
+    ]
+  },
+  "references": [
+    {
+      "path": "../src"
+    }
+  ],
+  "include": [
+    "."
+  ]
+}

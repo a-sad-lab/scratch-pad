@@ -1,6 +1,9 @@
 {
   "compilerOptions": {
     "strict": true,
+    "allowSyntheticDefaultImports": false,
+    "importHelpers": false,
+    "esModuleInterop": false,
     "module": "commonjs",
     "moduleResolution": "node",
     "target": "esnext",
