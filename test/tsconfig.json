@@ -1,10 +1,13 @@
 {
   "extends": "../tsconfig.base",
   "compilerOptions": {
+    "declaration": true,
+    "declarationMap": true,
     "types": [
       "node",
       "lodash"
     ],
+    "rootDir": ".",
     "rootDirs": [
       "../src",
       "."

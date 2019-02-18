@@ -10,6 +10,10 @@ import now from '../mods/modA'
 import test from 'ava'
 import {isNumber} from "lodash"
 
-test('my test', t => {
-  t.is(isNumber(now()), true)
-})
+function run() {
+  test('my yes test', t => {
+    t.is(isNumber(now()), true)
+  })
+}
+
+export default run()

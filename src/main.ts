@@ -15,7 +15,7 @@ import * as os from 'os'
 const cur = now()
 const curDate = toDate(cur)
 
-// this.un = 'u'
+// 不能随便使用 this 这个关键词
 
 const observable = new Observable(function subscribe(subscriber) {
   subscriber.next('now: ' + cur.toString())

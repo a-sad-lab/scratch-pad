@@ -13,10 +13,16 @@
     "noUnusedParameters": true,
     "noImplicitReturns": true,
     "noImplicitThis": true,
+    "preserveConstEnums": true,
     "types": [
       "node"
     ],
     "outDir": "dist",
-    "sourceMap": true
+    "sourceMap": true,
+    "plugins": [
+      {
+        "name": "typescript-tslint-plugin"
+      }
+    ]
   }
 }
