@@ -11,6 +11,8 @@ import test from 'ava'
 import {isNumber} from "lodash"
 
 function run() {
+  // ooo
+  // ooo
   test('my yes test', t => {
     t.is(isNumber(now()), true)
   })

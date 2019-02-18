@@ -5,7 +5,7 @@
   "scripts": {
     "help": "tsc --help",
     "tslint-init": "tslint --init",
-    "start": "tslint && rimraf dist && tsc --build test --verbose --watch",
+    "start": "rimraf dist && tsc --build test --verbose --watch",
     "release": "tslint --project ./src && rimraf dist && tsc --project tsconfig.release.json",
     "test": "ava dist/testMod/t.js"
   },
