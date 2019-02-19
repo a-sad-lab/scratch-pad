@@ -5,9 +5,10 @@
   "scripts": {
     "help": "tsc --help",
     "tslint-init": "tslint --init",
+    "lint": "tslint --project ./src",
     "start": "rimraf dist && tsc --build test --verbose --watch",
-    "release": "tslint --project ./src && rimraf dist && tsc --project tsconfig.release.json",
-    "test": "ava dist/testMod/t.js"
+    "release": "rimraf dist && tsc --project tsconfig.release.json",
+    "test": "ava dist/test.js"
   },
   "repository": {
     "type": "git",
@@ -27,13 +28,11 @@
   },
   "homepage": "https://github.com/rong8296-practice/scratch-pad#readme",
   "dependencies": {
-    "@reactivex/rxjs": "^6.4.0",
-    "rxjs": "^6.4.0",
-    "rxjs-compat": "^6.4.0"
+    "rxjs": "^6.4.0"
   },
   "devDependencies": {
     "@types/lodash": "^4.14.121",
-    "@types/node": "^11.9.3",
+    "@types/node": "^11.9.4",
     "ava": "^1.2.1",
     "lodash": "^4.17.11",
     "rimraf": "^2.6.3",

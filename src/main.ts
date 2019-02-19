@@ -9,7 +9,7 @@
 
 import now from './mods/modA'
 import { toDate } from './mods/modB'
-import { Observable } from '@reactivex/rxjs'
+import { Observable } from 'rxjs'
 import * as os from 'os'
 
 const cur = now()
