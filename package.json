@@ -6,7 +6,8 @@
     "help": "tsc --help",
     "tslint-init": "tslint --init",
     "lint": "tslint --project ./src",
-    "start": "rimraf dist && tsc --build test --verbose --watch --preserveWatchOutput",
+    "clean": "rimraf dist",
+    "start": "rimraf dist && tsc --build test --verbose --watch",
     "release": "rimraf dist && tsc --project tsconfig.release.json",
     "test": "ava dist/test.js"
   },
