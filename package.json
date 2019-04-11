@@ -32,14 +32,14 @@
     "rxjs": "^6.4.0"
   },
   "devDependencies": {
-    "@types/lodash": "^4.14.121",
-    "@types/node": "^11.9.4",
-    "ava": "^1.2.1",
+    "@types/lodash": "^4.14.123",
+    "@types/node": "^11.13.4",
+    "ava": "^1.4.1",
     "lodash": "^4.17.11",
     "rimraf": "^2.6.3",
     "tslib": "^1.9.3",
-    "tslint": "^5.12.1",
-    "typescript": "^3.3.3",
+    "tslint": "^5.15.0",
+    "typescript": "^3.4.3",
     "typescript-tslint-plugin": "^0.3.1"
   }
 }
