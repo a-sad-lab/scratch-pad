@@ -36,3 +36,15 @@ console.log(person.name, person.arch)
 const you = {...person, cur, curDate}
 
 export {you}
+
+class Student {
+  fullName: string
+  constructor(public firstName: string, public middleInitial: string, public lastName: string) {
+    this.fullName = firstName + " " + middleInitial + " " + lastName
+  }
+  getFullName() {
+    return this.fullName
+  }
+}
+
+console.log('full name is', new Student('Mary', 'G', 'Blue').getFullName())
