@@ -47,4 +47,14 @@ class Student {
   }
 }
 
-console.log('full name is', new Student('Mary', 'G', 'Blue').getFullName())
+const mgb = new Student('Mary', 'G', 'Blue')
+
+console.log('full name is', mgb.getFullName())
+
+let tuple: [string, string]
+
+tuple = ['k', 'v']
+
+const [k, v] = tuple
+
+console.log('k', k, 'v', v)
